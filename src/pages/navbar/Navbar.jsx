@@ -1,15 +1,18 @@
-import { AppBar, Box, IconButton, Typography } from "@mui/material";
+import { AppBar, Box, Typography } from "@mui/material";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import { navbar_list } from "../../shared/data";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import Logo from "../../assets/logo/logo.png";
-import { ColorButton } from "./styles";
+import { BlurredIconButton, ColorButton } from "./styles";
 
 const Navbar = () => {
   return (
     <Box sx={{ width: "100vw" }}>
-      <AppBar position="static" sx={{ padding: "10px" }}>
+      <AppBar
+        position="static"
+        sx={{ padding: "10px", backgroundColor: "#0F5132" }}
+      >
         <Box
           sx={{
             display: "flex",
@@ -30,7 +33,7 @@ const Navbar = () => {
             <ul style={{ display: "flex", marginLeft: "1rem" }}>
               {navbar_list.map((listname) => (
                 <li
-                  style={{ listStyle: "none", fontSize: "1.1em" }}
+                  style={{ listStyle: "none", fontSize: "1em" }}
                   key={listname.id}
                 >
                   <a
@@ -38,6 +41,7 @@ const Navbar = () => {
                       textDecoration: "none",
                       cursor: "pointer",
                       padding: "15px",
+                      color: "lightgray",
                     }}
                     href={`${listname.name.toLowerCase()}`}
                   >
@@ -52,39 +56,25 @@ const Navbar = () => {
               width: "50%",
               display: "flex",
               textAlign: "center",
-              alignItems: "center",       
-              justifyContent:'end'
+              alignItems: "center",
+              justifyContent: "end",
             }}
           >
-            <LocalPhoneOutlinedIcon sx={{ marginRight: ".5rem" }} />
+            <LocalPhoneOutlinedIcon sx={{ marginRight: ".5rem", color: "lightgray" }} />
             <Typography
-              sx={{ fontSize: "16px", marginRight: "2rem" }}
+              sx={{ fontSize: "16px", marginRight: "2rem", color: "lightgray", }}
               variant="h6"
             >
               +91 836218462
             </Typography>
-            <IconButton
-              sx={{
-                p: ".2rem",
-                border: "2px solid black",
-                marginRight: "2rem",
-              }}
-            >
-              <ShoppingCartRoundedIcon />
-            </IconButton>
-            <IconButton
-              sx={{
-                p: ".2rem",
-                border: "2px solid black",
-                marginRight: "2rem",
-              }}
-            >
-              <SearchRoundedIcon />
-            </IconButton>
+            <BlurredIconButton >
+              <ShoppingCartRoundedIcon fontSize="small" />
+            </BlurredIconButton>
+            <BlurredIconButton>
+              <SearchRoundedIcon fontSize="small" />
+            </BlurredIconButton>
 
-            <ColorButton  variant="contained">
-              Login
-            </ColorButton>
+            <ColorButton variant="contained">Login</ColorButton>
           </div>
         </Box>
       </AppBar>
