@@ -16,18 +16,6 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
 
-  navul: {
-    display: "flex",
-    marginLeft: theme.spacing(1),
-    [theme.breakpoints.up("md")]: {
-      display: "flex",
-      marginLeft: theme.spacing(1),
-    },
-    [theme.breakpoints.down("md")]: {
-      display: "none",
-    },
-  },
-
   navlist: {
     listStyle: "none",
     fontSize: "1em",
@@ -46,19 +34,12 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     alignItems: "center",
     justifyContent: "end",
-    // display: 'inline',
-    [theme.breakpoints.down("md")]: {
-      display: "none",
-    },
   },
 
   text: {
     display: "inline",
     fontSize: "1em",
     color: "lightgray",
-    [theme.breakpoints.down("md")]: {
-      display: "none",
-    },
   },
 }));
 

@@ -24,7 +24,7 @@ const Navbar = () => {
         >
           <div className={classes.navdiv}>
             <img alt="logo" src={Logo} width={40} height={40} />
-            <ul className={classes.navul}>
+            <ul className="navul">
               {navbar_list.map((listname) => (
                 <li className={classes.navlist} key={listname.id}>
                   <a
@@ -37,7 +37,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <div className={classes.navseconddiv}>
+          <div className="navseconddiv">
             <LocalPhoneOutlinedIcon
               sx={{ marginRight: ".5rem", color: "lightgray" }}
               className={classes.phoneIcon}

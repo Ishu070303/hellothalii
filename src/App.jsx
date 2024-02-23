@@ -2,13 +2,15 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Navbar from './pages/navbar/Navbar';
 
 import './index.css';
+import Home from './pages/Home/Home';
 
 const theme = createTheme({
   breakpoints: {
     values: {
-      sm: 430,
-      md: 1024,
-      lg: 1280,
+      sm: "505px",
+      md: "930px",
+      lg: "1280px",
+      xl: "1920px"
     }
   }, 
 
@@ -23,6 +25,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
     <Navbar />
+    <Home />
     </ThemeProvider>
   )
 }
