@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Questrial&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
   font-family: "Questrial", sans-serif;
 }
 
+/* ==================== From here navbar css starts ==================== */
 .navul {
   display: flex;
   margin-left: 1rem;
@@ -24,6 +25,8 @@
   display: none !important;
   color: white !important;
 }
+
+/* ====================From here the home css starts================== */
 
 .container {
   /* border: 2px solid black; */
@@ -46,7 +49,56 @@
   margin-top: 2rem !important;
 }
 
-@media only screen and (max-width: 1438px) {
+/* ============== from here about css starts ================== */
+.aboutdiv {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #f0f5f3;
+}
+
+.aboutsecondtext {
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  width: 383px;
+  margin-left: 170px !important;
+  margin-top: 15px;
+  color: #10271c;
+  font-weight: 500;
+}
+
+.jelly {
+  width: 400px;
+  height: 400px;
+}
+
+.aboutfirstdiv {
+  margin-top: 2rem;
+}
+
+.aboutseconddiv {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+
+/* ============ Media Screens ================= */
+@media only screen and (max-width: 1532px) {
+  .aboutsecondtext {
+    margin-left: 100px !important;
+  }
+  .jelly {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1227px) {
+  .aboutsecondtext {
+    margin-left: 70px !important;
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 930px) {
@@ -66,11 +118,52 @@
     width: 450px;
     font-size: 16px !important ;
   }
+
+  .aboutsecondtext {
+    margin-left: 40px !important;
+    width: 250px;
+  }
 }
 
-@media only screen and (max-width: 505px) {
-  .text2{
+@media only screen and (max-width: 760px) {
+  .aboutdiv {
+    display: block;
+  }
+
+  .aboutfirstdiv {
+    margin-top: 0;
+  }
+
+  .aboutseconddiv {
+    width: 40%;
+    margin: auto;
+  }
+
+  .aboutsecondtext {
+    margin-left: 20px !important;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 586px) {
+  .text2 {
     font-size: 12px !important;
     width: 307px;
+  }
+
+  .jelly {
+    width: 300px;
+    height: 300px;
+  }
+
+  .aboutsecondtext {
+    margin-left: -32px !important;
+    width: 273px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 471px) {
+  .aboutsecondtext {
+    
   }
 }

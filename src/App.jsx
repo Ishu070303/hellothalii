@@ -8,7 +8,7 @@ import About from './pages/About/About';
 const theme = createTheme({
   breakpoints: {
     values: {
-      sm: "505px",
+      sm: "586px",
       md: "930px",
       lg: "1280px",
       xl: "1920px"
