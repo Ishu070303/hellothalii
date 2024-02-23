@@ -1,48 +1,34 @@
-import { AppBar, Box, Typography } from "@mui/material";
+import { AppBar, Box, IconButton, Typography } from "@mui/material";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import { navbar_list } from "../../shared/data";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import Logo from "../../assets/logo/logo.png";
-import { BlurredIconButton, ColorButton } from "./styles";
+import { BlurredIconButton, ColorButton, useStyles } from "./styles";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar = () => {
+  const classes = useStyles();
+
   return (
     <Box sx={{ width: "100vw" }}>
-      <AppBar
-        position="static"
-        sx={{ padding: "10px", backgroundColor: "#0F5132" }}
-      >
+      <AppBar position="static" className={classes.appbar}>
         <Box
           sx={{
             display: "flex",
             height: "50%",
             width: "90%",
             m: "auto",
-          }}
+            justifyContent: 'space-between'
+          }} 
         >
-          <div
-            style={{
-              width: "50%",
-              display: "flex",
-              textAlign: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className={classes.navdiv}>
             <img alt="logo" src={Logo} width={40} height={40} />
-            <ul style={{ display: "flex", marginLeft: "1rem" }}>
+            <ul className={classes.navul}>
               {navbar_list.map((listname) => (
-                <li
-                  style={{ listStyle: "none", fontSize: "1em" }}
-                  key={listname.id}
-                >
+                <li className={classes.navlist} key={listname.id}>
                   <a
-                    style={{
-                      textDecoration: "none",
-                      cursor: "pointer",
-                      padding: "15px",
-                      color: "lightgray",
-                    }}
+                    className={classes.navlink}
                     href={`${listname.name.toLowerCase()}`}
                   >
                     {listname.name}
@@ -51,23 +37,19 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <div
-            style={{
-              width: "50%",
-              display: "flex",
-              textAlign: "center",
-              alignItems: "center",
-              justifyContent: "end",
-            }}
-          >
-            <LocalPhoneOutlinedIcon sx={{ marginRight: ".5rem", color: "lightgray" }} />
+          <div className={classes.navseconddiv}>
+            <LocalPhoneOutlinedIcon
+              sx={{ marginRight: ".5rem", color: "lightgray" }}
+              className={classes.phoneIcon}
+            />
             <Typography
-              sx={{ fontSize: "16px", marginRight: "2rem", color: "lightgray", }}
-              variant="h6"
+              sx={{ marginRight: "2rem" }}
+              className={classes.text}
+              component={"li"}
             >
-              +91 836218462
+              +91 8003357044
             </Typography>
-            <BlurredIconButton >
+            <BlurredIconButton>
               <ShoppingCartRoundedIcon fontSize="small" />
             </BlurredIconButton>
             <BlurredIconButton>
@@ -76,6 +58,9 @@ const Navbar = () => {
 
             <ColorButton variant="contained">Login</ColorButton>
           </div>
+          <IconButton className="menuIcon">
+            <MenuIcon />
+          </IconButton>
         </Box>
       </AppBar>
     </Box>

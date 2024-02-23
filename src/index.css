@@ -6,3 +6,15 @@
   box-sizing: border-box;
   font-family: "Questrial", sans-serif;
 }
+
+
+.menuIcon{
+  display: none !important;
+  color: white !important;
+}
+
+@media only screen and (min-width: 256px) and (max-width: 1248px) {
+  .menuIcon {
+    display: inline-block !important;
+  }
+ }
