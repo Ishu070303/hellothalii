@@ -83,6 +83,16 @@
 }
 
 
+/* ===================hero section =================== */
+.herosection{
+  border: 2px solid black;
+  height: 500px
+}
+
+.heropaper{
+
+}
+
 /* ============ Media Screens ================= */
 @media only screen and (max-width: 1532px) {
   .aboutsecondtext {

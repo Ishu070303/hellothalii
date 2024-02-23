@@ -4,6 +4,7 @@ import Navbar from './pages/navbar/Navbar';
 import './index.css';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Hero from './pages/Hero/Hero';
 
 const theme = createTheme({
   breakpoints: {
@@ -28,6 +29,7 @@ const App = () => {
     <Navbar />
     <Home />
     <About />
+    <Hero />
     </ThemeProvider>
   )
 }

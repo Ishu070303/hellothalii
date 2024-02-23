@@ -24,13 +24,6 @@ export const useStyles = makeStyles((theme) => ({
       width: "169px",
       marginTop: "8px",
 
-    },
-
-    [theme.breakpoints.down('md')]: {
-      fontSize: "38px",
-      width: "300px",
-      marginTop: '8px',
-      marginLeft: '0rem'
     }
   },
 
@@ -45,13 +38,6 @@ export const useStyles = makeStyles((theme) => ({
       width: "169px",
       lineHeight: "2rem",
       marginBottom: "1rem",
-    },
-
-    [theme.breakpoints.down('md')]: {
-      fontSize: "38px",
-      width: "200px",
-      marginTop: '8px',
-      marginLeft: '2.7rem'
     }
   },
 
@@ -65,6 +51,7 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: "7px",
     marginTop: "15px",
     fontWeight: "500",
+    marginBottom: '2rem',
     "&:hover": {
       backgroundColor: "#A38F98",
       color: "white",
