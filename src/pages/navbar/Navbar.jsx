@@ -11,7 +11,7 @@ const Navbar = () => {
   const classes = useStyles();
 
   return (
-    <Box sx={{ width: "100vw" }}>
+    <Box>
       <AppBar position="static" className={classes.appbar}>
         <Box
           sx={{
