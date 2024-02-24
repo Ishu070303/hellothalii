@@ -37,6 +37,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  /* z-index: -1;
+  filter: blur(3px); */
 }
 
 .text2 {
@@ -87,28 +89,63 @@
   /* border: 2px solid black; */
   height: 500px;
   display: flex;
+  justify-content: center;
 }
 
 .herofirstdiv {
   /* border: 2px solid black; */
-  width: 50%;
+  width: 40%;
   height: 500px;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.heroseconddiv{
- /* border: 2px solid; */
- width: 50%;
- display: flex;
- justify-content: center;
- align-items: center;
+.heroseconddiv {
+  /* border: 2px solid; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.heroseconddiv img{
-  width: 400px;
-  height: 400px;
+.div1 {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  border-radius: 37% 37% 63% 37% / 80% 44% 56% 59%;
+  background-color: #e1dadd;
+}
+
+.div2 {
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  border-radius: 51% 62% 56% 37% / 41% 44% 56% 59%;
+  background-color: #a5989f;
+}
+
+.div3 {
+  position: absolute;
+  z-index: 3;
+  width: 300px;
+  height: 300px;
+  border-radius: 41% 59% 62% 37% / 41% 44% 56% 59%;
+  background-color: #cc90ab;
+}
+
+.div4 {
+  z-index: 100;
+  width: 310px;
+  height: 350px;
+  background-image: url("../src/assets/images/heroimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 70% 26% 77% 27% / 80% 28% 71% 24%;
 }
 
 .heropaper {
@@ -118,29 +155,29 @@
   margin: auto;
 }
 
-.herotypoh5{
-    margin-top: 41px !important;
-    margin-left: 34px !important;
-    font-size: 44px !important;
-    font-family: "Cormorant Garamond", sans-serif !important;
-    font-weight: 700 !important;
-    color: white;
-    line-height: 3rem !important;
+.herotypoh5 {
+  margin-top: 41px !important;
+  margin-left: 34px !important;
+  font-size: 44px !important;
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-weight: 700 !important;
+  color: white;
+  line-height: 3rem !important;
 }
 
-.herotypop{
+.herotypop {
   width: 79%;
   margin: auto !important;
-  color: #E9EEEC;
+  color: #e9eeec;
   margin-top: 13px !important;
   font-family: "Questrial", sans-serif !important;
 }
 
-.herobutton{
+.herobutton {
   margin-left: 34px !important;
   margin-top: 12px !important;
   border-radius: 6px !important;
-  background-color: #A38F98 !important;
+  background-color: #a38f98 !important;
   color: white !important;
 }
 
