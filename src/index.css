@@ -181,6 +181,65 @@
   color: white !important;
 }
 
+/* ============================ Card section ============================== */
+.card {
+  height: 735px;
+}
+
+.carddiv {
+  width: 60vw;
+  margin: auto;
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carddivchild {
+  width: 263px;
+}
+
+.carddivchild:nth-child(2) {
+  margin-top: 143px;
+}
+
+.carddivchild:nth-child(3) {
+  margin-top: 276px;
+}
+
+.cardpaper {
+  height: 100%;
+}
+
+.cardpaper img {
+  width: 265px;
+  height: 384px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.carddivchild:nth-child(1) img {
+  height: 444px;
+}
+
+.carddivchild:nth-child(3) img {
+  height: 208px;
+}
+
+.cardtypoh5 {
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  padding: 10px !important;
+  padding-top: 0 !important;
+}
+
+.cardtypop {
+  font-family: "Questrial", sans-serif !important;
+  font-size: 14px !important;
+  padding: 10px !important;
+  padding-top: 0 !important;
+}
+
 /* ============ Media Screens ================= */
 @media only screen and (max-width: 1532px) {
   .aboutsecondtext {
@@ -261,6 +320,4 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 471px) {
-  .aboutsecondtext {
-  }
 }
