@@ -183,7 +183,7 @@
 
 /* ============================ Card section ============================== */
 .card {
-  height: 735px;
+  height: 800px;
 }
 
 .carddiv {
@@ -238,6 +238,85 @@
   font-size: 14px !important;
   padding: 10px !important;
   padding-top: 0 !important;
+}
+
+/* ======================== testimonals section =========================== */
+.testimonals {
+  height: 700px;
+  position: relative;
+}
+
+.curvy {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.testimonals_first_child {
+  margin-top: 3rem;
+}
+
+.testimonals_card {
+  width: 365px !important;
+  margin: auto;
+  height: 347px;
+  margin-left: 27rem;
+}
+
+.testimonals_card_first_child {
+  display: flex;
+}
+
+.testimonal_quote {
+  width: 44px !important;
+  height: 37px;
+  text-align: center;
+  margin: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #a38f98;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.testimonals_card_first_p {
+  margin-top: 1.3rem !important;
+  font-family: "Questrial", sans-serif !important;
+  width: 280px;
+  font-weight: 600 !important;
+}
+
+.testimonals_card_second_child {
+  display: flex;
+  width: 76%;
+  align-items: center;
+  margin: auto;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+
+.testimonal_image {
+  margin-left: 12px;
+}
+
+.testimonals_card_second_child .text_first {
+  /* border: 2px solid; */
+  font-family: "Questrial", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.testimonals_card_second_child .text_second {
+  /* border: 2px solid; */
+  font-family: "Questrial", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.slider {
+  width: 80vw;
+  margin: auto;
+  /* text-align: center; */
 }
 
 /* ============ Media Screens ================= */

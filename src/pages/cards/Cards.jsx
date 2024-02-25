@@ -9,7 +9,7 @@ const Cards = () => {
     <div className="card">
       <div className="carddiv">
         {cards.map((data) => (
-          <div className="carddivchild">
+          <div className="carddivchild" key={data.id}>
             <Paper className="cardpaper">
               {data.image === "cardimage" && (
                 <img src={CardImage} alt="card-image" />

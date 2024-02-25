@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Hero from './pages/Hero/Hero';
 import Cards from './pages/cards/Cards';
+import Testimonals from './pages/testimonals/Testimonals';
 
 const theme = createTheme({
   breakpoints: {
@@ -32,6 +33,7 @@ const App = () => {
     <About />
     <Hero />
     <Cards />
+    <Testimonals />
     </ThemeProvider>
   )
 }
