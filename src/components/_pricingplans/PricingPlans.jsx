@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Button, Card, Typography } from "@material-ui/core";
-import { Navbar } from "../../pages";
+import { Footer, Navbar } from "../../pages";
 import { accordianData, pricingPlans } from "../../shared/data";
 import { styled } from '@mui/material/styles';
 import MuiAccordion from '@mui/material/Accordion';
@@ -32,6 +32,7 @@ const AccordionSummary = styled((props) => (
   //     ? 'rgba(255, 255, 255, .05)'
   //     : 'rgba(0, 0, 0, .03)',
   padding: '8px',
+  color: '#0F5132',
   flexDirection: 'row-reverse',
   '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
     marginLeft: ".5rem"
@@ -118,7 +119,14 @@ const PricingPlans = () => {
         </Typography>
       </div>
 
-      <div className='plan-contactus'></div>
+      <div className='plan-contactus'>
+        <div>
+          <Typography className='plan-contactus_text' variant='h6'>We are single and always free to get in touch with you. Feel free to message us or give a missed call.</Typography>
+          <Button className='plan-contactus_button'>Contact Us</Button>
+        </div>
+      </div>
+
+      <Footer />
     </Box>
   );
 };
