@@ -1,0 +1,70 @@
+.nav .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #0f5132 !important;
+}
+
+.plan-div {
+  text-align: center;
+}
+
+.plan-heading {
+  font-size: 3em !important;
+  margin-top: 3rem !important;
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.plan-child-div {
+  display: flex;
+  width: 70vw;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.plan-card {
+  width: 327px;
+  height: 404px;
+}
+
+.plan-second-div{
+    margin-top: 5rem !important; 
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+}
+
+.plan-second-text{
+    font-family: "Questrial", sans-serif !important;
+    padding: 2rem !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.last-plan-div{
+  width: 70vw;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.last-plan-div-texth5{
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 2.5em !important;
+}
+
+.accordian_typo_first{
+  font-family: "Questrial", sans-serif !important; 
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.accordian_typo_second{
+  font-family: "Questrial", sans-serif !important; 
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-left: 2rem !important;
+}
+
+.plan-contactus{
+  border: 2px solid;
+}

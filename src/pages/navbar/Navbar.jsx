@@ -6,6 +6,7 @@ import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import Logo from "../../assets/logo/logo.png";
 import { BlurredIconButton, ColorButton, useStyles } from "./styles";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const classes = useStyles();
@@ -27,12 +28,12 @@ const Navbar = () => {
             <ul className="navul">
               {navbar_list.map((listname) => (
                 <li className={classes.navlist} key={listname.id}>
-                  <a
+                  <Link
                     className={classes.navlink}
-                    href={`${listname.name.toLowerCase()}`}
+                    to={listname.link}
                   >
                     {listname.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
