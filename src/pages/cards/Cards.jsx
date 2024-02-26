@@ -3,10 +3,12 @@ import { cards } from "../../shared/data";
 import CardImage from "../../assets/images/cardimage.jpg";
 import MoneyImage from "../../assets/images/cardmoney.jpg";
 import CardBoy from "../../assets/images/cardboy.jpg";
+import Particles from "../../shared/Particles";
 
 const Cards = () => {
   return (
     <div className="card">
+      <Particles />
       <div className="carddiv">
         {cards.map((data) => (
           <div className="carddivchild" key={data.id}>

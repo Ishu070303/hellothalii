@@ -1,6 +1,3 @@
-import CardImage from "../assets/images/cardimage.jpg";
-import MoneyImage from "../assets/images/cardmoney.jpg";
-
 export const navbar_list = [
   {
     id: 1,
@@ -9,7 +6,7 @@ export const navbar_list = [
 
   {
     id: 2,
-    name: "Menu",
+    name: "Explore",
   },
 
   {

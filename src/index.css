@@ -86,8 +86,11 @@
 
 /* ===================hero section =================== */
 .herosection {
-  /* border: 2px solid black; */
   height: 500px;
+  background-image: url("../src/assets/images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 }
@@ -242,13 +245,13 @@
 
 /* ======================== testimonals section =========================== */
 .testimonals {
-  height: 700px;
+  height: 630px;
   position: relative;
 }
 
 .curvy {
   position: absolute;
-  top: 40%;
+  bottom: -1%;
   width: 100%;
 }
 
@@ -302,13 +305,11 @@
 }
 
 .testimonals_card_second_child .text_first {
-  /* border: 2px solid; */
   font-family: "Questrial", sans-serif !important;
   font-size: 14px !important;
 }
 
 .testimonals_card_second_child .text_second {
-  /* border: 2px solid; */
   font-family: "Questrial", sans-serif !important;
   font-size: 14px !important;
 }
@@ -316,8 +317,110 @@
 .slider {
   width: 80vw;
   margin: auto;
-  /* text-align: center; */
 }
+
+/* ============================= Contact US Section ====================================== */
+
+.contact_section {
+  height: 306px;
+  background-color: #a38f98;
+}
+
+.contact_text {
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-size: 2em !important;
+  width: 619px;
+  color: white;
+  margin-left: 7rem !important;
+  font-weight: 900 !important;
+}
+
+.contact_button {
+  margin-left: 111px !important;
+  color: white !important;
+  background-color: #0f5132 !important;
+  margin-top: 12px !important;
+  font-family: "Questrial", sans-serif !important;
+}
+
+/* ============================ Footer Section ==================================== */
+.footer {
+  background-color: #0f5132;
+  height: 345px;
+  position: relative;
+}
+
+.footer_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_first_div {
+  width: 369px;
+  margin-top: 36px;
+  margin-left: 7rem;
+}
+
+.footer_first_texth6 {
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-size: 1.6rem !important;
+  color: white;
+  font-weight: 700 !important;
+}
+
+.footer_first_textp {
+  font-family: "Questrial", sans-serif !important;
+  color: white;
+  margin-top: 30px !important;
+}
+
+.footer_second_div {
+  margin-right: 16rem;
+  color: white !important;
+  margin-top: 111px;
+  width: 211px;
+}
+
+.footer_second_textp1 {
+  font-family: "Questrial", sans-serif !important;
+}
+
+.footer_icon {
+  margin-right: 12px;
+}
+
+.footer_second_link {
+  color: white !important;
+  cursor: pointer;
+}
+
+.footer_link {
+  color: white !important;
+  border: 1px solid;
+  border-radius: 100%;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer_last {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 49px;
+  background-color: #0c452b;
+}
+
+.footer_last_text {
+  width: 206px;
+  font-size: 17px !important;
+  font-family: "Questrial", sans-serif !important;
+  margin-left: 105px !important;
+  color: lightgray;
+  margin-top: 12px !important;
+}
+
 
 /* ============ Media Screens ================= */
 @media only screen and (max-width: 1532px) {
