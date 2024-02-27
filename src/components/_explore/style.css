@@ -1,0 +1,28 @@
+.explore-nav .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #0f5132 !important;
+}
+
+.explore-div {
+  background-color: #f0f5f3;
+  height: 210px;
+  padding-top: 35px;
+}
+
+.explore-text-h4 {
+  font-family: "Cormorant Garamond", sans-serif !important;
+  font-size: 4em !important;
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+.explore-text-p {
+  font-family: "Questrial", sans-serif !important;
+  text-align: center;
+}
+
+.menu-div {
+  border: 2px solid;
+  width: 80vw;
+  margin: auto;
+  margin-top: 2rem;
+}

@@ -192,3 +192,68 @@ export const accordianData = [
     desc: " In this case, you will have to contact to the support team. Go to contact us -> then fill the form and expect a call from us. Usually we reply is 1-2 business days. No worries at all. You will be given chance to set your preference if you dont call us we deliver you randomly.",
   },
 ];
+
+export  const categoryItems = {
+  Thali: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ],
+
+  Pizza: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ],
+
+  Noodles: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ],
+
+  Burgers: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ],
+
+  Biryani: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ],
+
+  DrinksSnaks: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ],
+
+  NonVeg: [
+    { name: "Furniture", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Clothes", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Books", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Essential oils", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Service", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"},
+    { name: "Multimedia", image: "https://tse1.mm.bing.net/th?id=OIP.WZzAMKDjzhhyAf9D2dhpEQHaE7&pid=Api&rs=1&c=1&qlt=95&h=180"}
+  ]
+}
